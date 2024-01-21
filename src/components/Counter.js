@@ -6,7 +6,6 @@ import { useAppDispatch } from "@/app/hooks";
 
 const Counter = (props) => {
   const dispatch = useAppDispatch();
-  console.log(props);
 
   return (
     <div>
